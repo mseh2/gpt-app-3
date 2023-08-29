@@ -1,0 +1,23 @@
+.mat-toolbar-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+}
+
+.title {
+    margin-right: auto;
+}
+
+.toolbar-row img {
+    width: 10%;
+    height: 10%;
+}
+
+.header-button {
+    margin-left: 10px;
+}
+
+.mat-button {
+    width: 100%;
+}

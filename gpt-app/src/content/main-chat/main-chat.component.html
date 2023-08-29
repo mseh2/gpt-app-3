@@ -1,0 +1,19 @@
+<!-- スピナー表示 -->
+<!-- <ngx-spinner>
+</ngx-spinner> -->
+<!-- チャット画面 -->
+<div class="chat">
+    <div>
+        <h1>GPT3.5とチャット</h1>
+    </div>
+</div>
+
+<div>
+    <mat-form-field class="requestarea">
+        <textarea matInput [(ngModel)]="message" (matAutosize)="true" placeholder="入力："></textarea>
+    </mat-form-field>
+    <button mat-flat-button type="submit" class="submitButton" color="warn" (click)="submitMsg()">送信</button>
+</div>
+<div class="markdownArea">
+    <!-- <markdown class="variable-binding" [data]="gptAnser"></markdown> -->
+</div>
